@@ -9,7 +9,7 @@ def get_star_icon(image_path):
     
     cx, cy = size / 2, size / 2
     r_outer = size / 2
-    r_inner = r_outer * 0.45
+    r_inner = r_outer * 0.7
     num_points = 8
     
     star_coordinates = []
