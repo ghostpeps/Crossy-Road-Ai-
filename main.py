@@ -38,7 +38,4 @@ st.set_page_config(
 )
 
 st.title("Crossy Road Hacker")
-c1, c2 = st.columns(2)
-c1.write("By *ghostpeps*")
-c2.caption("Uses Gemini by Google")
 st.write("By *ghostpes*  \n:grey[Uses Gemini by Google]")
