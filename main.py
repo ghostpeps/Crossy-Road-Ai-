@@ -39,4 +39,4 @@ st.set_page_config(
 
 st.title("Crossy Road Hacker")
 st.write("By *ghostpeps*")
-st.markdown("###### Uses Gemini by Google")
+st.caption("Uses Gemini by Google")
