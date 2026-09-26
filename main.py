@@ -39,4 +39,4 @@ st.set_page_config(
 
 st.title("Crossy Road Hacker")
 st.write("By *ghostpeps*")
-st.write("Uses Gemini")
+st.caption("Uses Gemini")
