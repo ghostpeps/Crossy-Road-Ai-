@@ -29,12 +29,10 @@ def get_star_icon(image_path):
     star_img.paste(img, (0, 0), mask=mask)
     return star_img
     
-star_icon = get_star_icon("Crossy_Road_icon.jpeg")
-
 
 st.set_page_config(
     page_title="Crossy Road",
-    page_icon=star_icon
+    page_icon=get_star_icon("Crossy_Road_icon.jpeg")
 )
 
 st.title("Crossy Road Hacker")
